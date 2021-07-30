@@ -4,7 +4,7 @@
 
 release()
 {
-  time=$2
+  time="$2"
   currentDate=$(date +'%Y%m%d')
   version="$currentDate-$time"
   changeLogFile=changelog.txt

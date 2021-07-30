@@ -29,7 +29,6 @@ release()
   if [[ -f "$changeLogFile" ]]; then
     echo "$changeLogFile exists."
     sed -i "1s/^/Changelog release-$version: \n/" $changeLogFile
-    git tag -a $version --file="/home/genaro/release/changelog.txt"
     git tag -a $version --file=$changeLogFile
   else
     echo "$changeLogFile does not exist."

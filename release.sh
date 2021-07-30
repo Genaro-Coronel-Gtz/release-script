@@ -4,7 +4,7 @@
 
 release()
 {
-  time=2200
+  time=1130
   currentDate=$(date +'%Y%m%d')
   version="$currentDate-$time"
   changeLogFile=changelog.txt
@@ -23,7 +23,7 @@ release()
   git checkout develop
   git checkout -b release-$version
 
-  git checout master
+  git checkout master
   git merge release-$version
 
   if [[ -f "$changeLogFile" ]]; then

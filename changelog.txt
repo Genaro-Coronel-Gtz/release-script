@@ -1,4 +1,5 @@
 
+- Feature "set time from args"
 - Fix issue "AAAAAA"
 - Fix issue "BBBB"
 - Feature name-feature "b"

@@ -1,9 +1,7 @@
-Changelog release-20210610-2200: 
 
-
-- Fix issue "yyyyy"
-- Fix issue "zzzzz"
-- Feature name-feature
-- Maintenance some packages
+- Fix issue "AAAAAA"
+- Fix issue "BBBB"
+- Feature name-feature "b"
+- Maintenance some packages "c"
 
 
